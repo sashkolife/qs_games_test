@@ -1,0 +1,24 @@
+{
+  "name": "qs_games_test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "webpack",
+    "build": "webpack --mode production --no-watch --no-devtool"
+  },
+  "author": "Olexandr Kuriachyi",
+  "license": "ISC",
+  "devDependencies": {
+    "gsap": "^3.12.1",
+    "pixi-spine": "4.0.4",
+    "pixi.js": "^7.2.4",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.1.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

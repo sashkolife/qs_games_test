@@ -1,0 +1,30 @@
+{
+"frames": {
+	"background": {
+		"frame": {"x":0, "y":0, "w":1282, "h":722},
+		"spriteSourceSize": {"x":0,"y":0,"w":1282,"h":722},
+		"sourceSize": {"w":1282,"h":722}
+	},
+	"button_play": {
+		"frame": {"x":0, "y":723, "w":485, "h":121},
+		"spriteSourceSize": {"x":0,"y":0,"w":485,"h":121},
+		"sourceSize": {"w":485,"h":121}
+	},
+	"hit_click": {
+		"frame": {"x":0, "y":845, "w":179, "h":179},
+		"spriteSourceSize": {"x":0,"y":0,"w":179,"h":179},
+		"sourceSize": {"w":179,"h":179}
+	},
+	"miss_click": {
+		"frame": {"x":0, "y":1025, "w":45, "h":45},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+		"sourceSize": {"w":45,"h":45}
+	}
+
+},
+"meta": {
+	"image": "atlas.png",
+	"size": {"w": 2048, "h": 2048},
+	"scale": "1"
+}
+}

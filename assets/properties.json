@@ -1,0 +1,73 @@
+{
+  "enemies": [
+    {
+      "type": "ghost",
+      "source": "ghost",
+      "x": 200,
+      "y": 200,
+      "scale": {"x": 0.5, "y": 0.5},
+      "animations": {
+        "idle": {"name": "idle_1", "loop":  true },
+        "hide": {"name": "idle_2", "animationStart":  1, "animationEnd": 2, "loop": false, "timeScale": 2 }
+      }
+    },
+    {
+      "type": "ghost",
+      "source": "ghost",
+      "x": 700,
+      "y": 100,
+      "scale": {"x": -0.4, "y": 0.4},
+      "animations": {
+        "idle": {"name": "idle_1", "loop":  true },
+        "hide": {"name": "idle_2", "animationStart":  1, "animationEnd": 2, "loop": false, "timeScale": 2 }
+      }
+    },
+    {
+      "type": "ghost",
+      "source": "ghost",
+      "x": 1000,
+      "y": 350,
+      "scale": {"x": -0.35, "y": 0.35},
+      "animations": {
+        "idle": {"name": "idle_1", "loop":  true },
+        "hide": {"name": "idle_2", "animationStart":  1, "animationEnd": 2, "loop": false, "timeScale": 2 }
+      }
+    },
+    {
+      "type": "genie",
+      "source": "genie",
+      "x": 600,
+      "y": 200,
+      "scale": {"x": 0.4, "y": 0.4},
+      "animations": {
+        "show": {"name": "start_freespins", "loop": false, "timeScale": 4 },
+        "idle": {"name": "freespins_loop", "loop":  true },
+        "hide": {"name": "bonus_win", "animationStart": 4.5, "loop": false, "timeScale": 2 }
+      }
+    },
+    {
+      "type": "genie",
+      "source": "genie",
+      "x": 1100,
+      "y": 200,
+      "scale": {"x": 0.4, "y": 0.4},
+      "animations": {
+        "show": {"name": "start_freespins", "loop": false, "timeScale": 4 },
+        "idle": {"name": "freespins_loop", "loop":  true },
+        "hide": {"name": "bonus_win", "animationStart": 4.5, "loop": false, "timeScale": 2 }
+      }
+    },
+    {
+      "type": "genie",
+      "source": "genie",
+      "x": 750,
+      "y": 300,
+      "scale": {"x": 0.5, "y": 0.5},
+      "animations": {
+        "show": {"name": "start_freespins", "loop": false, "timeScale": 4 },
+        "idle": {"name": "freespins_loop", "loop":  true },
+        "hide": {"name": "bonus_win", "animationStart": 4.5, "loop": false, "timeScale": 2 }
+      }
+    }
+  ]
+}
